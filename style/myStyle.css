@@ -322,3 +322,15 @@ form {
   text-align: left;
   padding: 10px;
 }
+.footer{
+	text-align: center;
+	color: white;
+	font-size: 1em;
+	background-color: #24201d;
+	margin: 0;
+	padding:10px;
+	height: 20px;
+} .footer a:link{
+	color: white;
+	background-color: aqua;
+}
