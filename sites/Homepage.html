@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style/myStyle.css">
+<title>Landing Page</title>
+<script>
+window.onscroll = function() {
+  growShrinkLogo()
+};
+window.onload = function(){
+	    Logo.style.height = '100px';
+	  Logo.style.borderRadius = "0";
+	  Logo.style.width = 'auto';
+	  Logo.style.paddingTop = "1em";
+}
+function growShrinkLogo() {
+  var Logo = document.getElementById("Logo")
+  if (document.body.scrollTop > 1 || document.documentElement.scrollTop > 5) {
+    Logo.style.height = '2.4em';
+	  Logo.style.width = '2.4em';
+	  Logo.style.borderRadius = "50%";
+	  Logo.style.padding = "0";
+	  Logo.style.marginBottom = "0.5em";
+	  Logo.style.paddingTop = "0";
+  } else {
+	    Logo.style.height = '100px';
+	  Logo.style.borderRadius = "0";
+	  Logo.style.width = 'auto';
+	  Logo.style.paddingTop = "1em";
+  }
+}
+</script>
+</head>
+
+<body>
+<nav>
+  <div class="navbar"> <img alt="logo" id="Logo" src="../images/logo.jpg">
+    <ul class="links">
+      <li><a href="#">Link 1 </a> </li>
+      <li><a href="#">Link 2 </a></li>
+      <li><a href="#">Link 3 </a></li>
+      <li><a href="#">Link 4 </a></li>
+      <li><a href="#">Link 5 </a> </li>
+      <li><a href="#">Link 6 </a> </li>
+    </ul>
+  </div>
+  <div class="hero-image">
+    <div class="hero-form">
+      <form method="get" action="#">
+        <h1>Set up a free consultation</h1>
+        <div>
+          <label for="name">Your name: </label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+          <label for="email">Your email: </label>
+          <input type="text" id="email" name="email" required>
+        </div>
+        <div>
+          <label for="comment">Any Coments?: </label>
+          <input type="text" id="comment" name="comment" >
+        </div>
+        <button type="submit" class="button">Press Me</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<div class="container">
+  <div class="textField">
+    <div class="textFieldText">
+      <p>Lorem ipsum</p>
+      <p>Lorem ipsum dolor sit amet, cu eum noluisse instructior. Probatus referrentur liberavisse pro cu. Etiam commune epicurei ut qui, intellegam honestatis ex cum. Sit et graece legendos, sit in aeterno tritani delicatissimi. Et utinam aliquip cum, ut sea sale honestatis. Mei ex tollit adolescens reprehendunt, sed id illud neglegentur, cu mea error vocent volumus. Ne erat theophrastus eum, eos id sint eirmod, id fugit consequuntur eum.
+        
+        Ne vix accommodare consequuntur, utinam tibique ex eos. Duo vitae discere ei, et ius malis equidem facilis. Cu usu phaedrum posidonium, mea te utinam intellegat, vix probo saperet id. Ad congue decore postea pro.
+        
+        His habeo autem dicant id, te labore veritus quo. Choro mentitum molestie mea cu, munere aperiam perfecto eam ei. Quo imperdiet liberavisse ne, vel magna atomorum conclusionemque eu, eam in falli vivendum invenire. Est te alia facete, no iisque appetere conclusionemque vim. Porro veniam laboramus nam no, eum eu tamquam delectus singulis. Usu solet facete docendi te, per ut tibique intellegat repudiandae, timeam scaevola constituto ex vim. Option mentitum pertinax mea cu, vix ei duis audire quaeque, usu no meliore repudiare vituperatoribus. </p>
+    </div>
+    
+	 <img class="img" alt="a picture" src="../images/photo1.jpg"/>
+  </div>
+  <div class="textField">
+    <div class="textFieldText2">
+      <p>Lorem ipsum</p>
+      <p>Lorem ipsum dolor sit amet, cu eum noluisse instructior. Probatus referrentur liberavisse pro cu. Etiam commune epicurei ut qui, intellegam honestatis ex cum. Sit et graece legendos, sit in aeterno tritani delicatissimi. Et utinam aliquip cum, ut sea sale honestatis. Mei ex tollit adolescens reprehendunt, sed id illud neglegentur, cu mea error vocent volumus. Ne erat theophrastus eum, eos id sint eirmod, id fugit consequuntur eum.
+        
+        Ne vix accommodare consequuntur, utinam tibique ex eos. Duo vitae discere ei, et ius malis equidem facilis. Cu usu phaedrum posidonium, mea te utinam intellegat, vix probo saperet id. Ad congue decore postea pro.
+        
+        His habeo autem dicant id, te labore veritus quo. Choro mentitum molestie mea cu, munere aperiam perfecto eam ei. Quo imperdiet liberavisse ne, vel magna atomorum conclusionemque eu, eam in falli vivendum invenire. Est te alia facete, no iisque appetere conclusionemque vim. Porro veniam laboramus nam no, eum eu tamquam delectus singulis. Usu solet facete docendi te, per ut tibique intellegat repudiandae, timeam scaevola constituto ex vim. Option mentitum pertinax mea cu, vix ei duis audire quaeque, usu no meliore repudiare vituperatoribus. </p>
+    </div>
+    <img class="img" alt="a picture" src="../images/photo2.jpg"/>
+  </div>
+  <div class="textField">
+    <div class="textFieldText">
+      <p>Lorem ipsum</p>
+      <p>Lorem ipsum dolor sit amet, cu eum noluisse instructior. Probatus referrentur liberavisse pro cu. Etiam commune epicurei ut qui, intellegam honestatis ex cum. Sit et graece legendos, sit in aeterno tritani delicatissimi. Et utinam aliquip cum, ut sea sale honestatis. Mei ex tollit adolescens reprehendunt, sed id illud neglegentur, cu mea error vocent volumus. Ne erat theophrastus eum, eos id sint eirmod, id fugit consequuntur eum.
+        
+        Ne vix accommodare consequuntur, utinam tibique ex eos. Duo vitae discere ei, et ius malis equidem facilis. Cu usu phaedrum posidonium, mea te utinam intellegat, vix probo saperet id. Ad congue decore postea pro.
+        
+        His habeo autem dicant id, te labore veritus quo. Choro mentitum molestie mea cu, munere aperiam perfecto eam ei. Quo imperdiet liberavisse ne, vel magna atomorum conclusionemque eu, eam in falli vivendum invenire. Est te alia facete, no iisque appetere conclusionemque vim. Porro veniam laboramus nam no, eum eu tamquam delectus singulis. Usu solet facete docendi te, per ut tibique intellegat repudiandae, timeam scaevola constituto ex vim. Option mentitum pertinax mea cu, vix ei duis audire quaeque, usu no meliore repudiare vituperatoribus. </p>
+    </div>
+    <img class="img" alt="a picture" src="../images/photo3.jpg"/>
+  </div>
+  <div class="reviewBox">
+    <div class="review">
+      <div class="rheader">Good Service</div>
+      <img alt="stars" class="rrating" src="../images/sterne.png"/>
+      <div class="rname">Max Museter Man</div>
+      <div class="rtext">Lorem ipsum etc doro atomorum conclusionemque eu, eam in falli vivendum invenire. Est te alia facete, no iisque appetere conclusionemque vim. Porro veniam laboramus natomorum conclusionemque eu, eam in falli vivendum invenire. Est te alia facete, no iisque appetere conclusionemque vim. Porro veniam laboramus n </div>
+    </div>
+    <div class="review">
+      <div class="rheader">Good Service</div>
+      <img alt="stars" class="rrating" src="../images/sterne.png"/>
+      <div class="rname">Max Museter Man</div>
+      <div class="rtext">Lorem ipsum etc doro atomorum conclusionemque eu, eam in falli viinvenire. Est te alia facete, no iisque appetere conclusionemque vim. Porro veniam labnatomorum conclusionemque eu, eam in falli vivendum invenire. Est te alia facete, no appetere conclusionemque vim. Porro veniam laboramus n </div>
+    </div>
+    <div class="review">
+      <div class="rheader">Good Service</div>
+      <img alt="stars" class="rrating" src="../images/sterne.png"/>
+      <div class="rname">Max Museter Man</div>
+      <div class="rtext">Lorem ipsum etc doro atomorum conclusionemque eu, eam in falli vivendum invenire. Est te alia facete, no iisque appetere conclusionemque vim. Porro veniam laboramus natomorum conclusionemque eu, eam in falli vivendum invenire. Est te alia facete, no iisque appetere conclusionemque vim. Porro veniam laboramus n </div>
+    </div>
+    <div class="review">
+      <div class="rheader">Good Service</div>
+      <img alt="stars" class="rrating" src="../images/sterne.png"/>
+      <div class="rname">Max Museter Man</div>
+      <div class="rtext">Lorem ipsum etc doro atomorum conclusionemque eu, eam in falli vivendum invenire. Est te alia facete, no iisque appetere conclusionemque vim. Porro veniam laboramus natomorum conclusionemque eu, eam in falli vivendum invenire. Est te alia facete, no iisque appetere conclusionemque vim. Porro veniam laboramus n </div>
+    </div>
+  </div>
+  <img alt="closing picture" src="../images/photo4.jpg" style="width: 100%"/>
+</div>
+</body>
+</html>
